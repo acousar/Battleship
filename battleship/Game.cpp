@@ -2,8 +2,8 @@
 
 int main()
 {
-  GameInterface game;
-  game.Start();
+  GameInterface gameInterface;
+  gameInterface.Start();
 
   return 0;
 }
