@@ -1,0 +1,18 @@
+#pragma once
+#ifndef SHIP_PLACEMENT_H
+#define SHIP_PLACEMENT_H
+
+namespace ShipPlacement{
+ 
+  enum{
+     SHIP_PLACEMENT_SUCCESSFULL = 0,
+     INVALID_COORDINATES = 1,
+     SHIP_PLACEMENT_INVALID = 2,
+     SPACE_OCCUPIED = 3,
+     BAD_SHIP_PLACMENT_ALIGNMENT = 4,
+     INVALID_SHIP_PLACEMENT_SIZE = 5,
+	 VALID_SPACE = 6
+  };
+}
+
+#endif
